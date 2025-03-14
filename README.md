@@ -21,7 +21,7 @@ git clone https://github.com/silencer-z/LVGL_SIM.git
 MinGW是windows平台下的GUN编译器，我们需要通过MinGW完成整个程序的编译，这里选择从
 https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/
 下载，划到最下面选择下载`x86_64-posix-seh`。将下载完成的压缩包解压到相应位置，可以选择将
-其bin目录添加至系统的环境变量Path中去。
+其bin目录添加至系统的环境变量Path中去。也可以选择使用现存的GCC编译器，比如CLion中就自带了MinGW
 
 ### 合并MinGW和SDL
 LVGL使用SDL来模拟键盘鼠标等驱动输入，我们需要将对应的SDL头文件和库添加到MinGW中去:
